@@ -4,5 +4,5 @@ LABEL author=pavan
 LABEL month=august
 RUN apk update
 RUN apk add python3
-# sleep 10s
-CMD ["sleep", "10s"]
+# sleep time in minutes,day
+CMD ["sleep", "50s"]
